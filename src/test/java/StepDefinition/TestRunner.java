@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty","junit:target/JUnitReports/report.xml",
                 "json:target/JSONReports/report.json",
                 "html:target/HTMLReports"},
-        tags="@smoke"
+        tags="@demo"
 )
 
 public class TestRunner {

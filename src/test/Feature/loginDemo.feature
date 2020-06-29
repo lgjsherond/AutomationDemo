@@ -1,4 +1,6 @@
 Feature: Test login functionality
+
+  @demo
   Scenario Outline: Check the login is succesful
     Given Chrome is open
     And user is on test login page
@@ -10,4 +12,4 @@ Feature: Test login functionality
     |username|password|
     |Sheron|12345|
     |Niresh|12345|
-    |Deva  |12345|
+    |Deva  |12445|
